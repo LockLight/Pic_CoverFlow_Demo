@@ -13,6 +13,7 @@
 		CD26648E1E532AC0004D538F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD26648C1E532AC0004D538F /* Main.storyboard */; };
 		CD2664901E532AC0004D538F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD26648F1E532AC0004D538F /* Assets.xcassets */; };
 		CD2664931E532AC0004D538F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD2664911E532AC0004D538F /* LaunchScreen.storyboard */; };
+		CD26649C1E532C3B004D538F /* LLCoverFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CD26649B1E532C3B004D538F /* LLCoverFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CD26648F1E532AC0004D538F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD2664921E532AC0004D538F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD2664941E532AC0004D538F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD26649A1E532C3B004D538F /* LLCoverFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCoverFlowLayout.h; sourceTree = "<group>"; };
+		CD26649B1E532C3B004D538F /* LLCoverFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCoverFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				CD2664911E532AC0004D538F /* LaunchScreen.storyboard */,
 				CD2664941E532AC0004D538F /* Info.plist */,
 				CD2664831E532AC0004D538F /* Supporting Files */,
+				CD26649A1E532C3B004D538F /* LLCoverFlowLayout.h */,
+				CD26649B1E532C3B004D538F /* LLCoverFlowLayout.m */,
 			);
 			path = "图片coverFlow特效";
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 				CD26648B1E532AC0004D538F /* ViewController.m in Sources */,
 				CD2664881E532AC0004D538F /* AppDelegate.m in Sources */,
 				CD2664851E532AC0004D538F /* main.m in Sources */,
+				CD26649C1E532C3B004D538F /* LLCoverFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
